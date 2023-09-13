@@ -40,11 +40,11 @@ const Navigation = () => {
             <div className='socialNetwork'>
             <ul>
             <li>
-            <a href='https://www.google.com' target='blank'
+            <a href='https://www.linkedin.com/in/amine-saddiki-125248284pro/' target='blank'
             rel='nooppener noreferrer'><i className='fab fa-linkedin'></i></a>
             </li>
             <li>
-            <a href='https://www.google.com' target='blank'
+            <a href='https://github.com/asaddiki?tab=repositories' target='blank'
             rel='nooppener noreferrer'><i className='fab fa-github'></i></a>
             </li>
             </ul>

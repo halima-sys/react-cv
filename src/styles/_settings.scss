@@ -2,7 +2,7 @@
 
 $font-1: 'Nova Round', cursive;
 $font-2: 'Dosis', sans-serif;
-$font-3: 'Nova Round', serfi;
+$font-3: 'Nova Round', sans-serif;
 
 $color-1: #2a1d52;
 $color-2: #6C77F4;
@@ -29,7 +29,7 @@ $minHeight: 95vh;
 
 body{
     margin: 1rem auto;
-    max-width: 1200px;
+    max-width: 1500px;   //modifié par amine 1200px
     font-family: $font-1;
     color: $black;
 }
