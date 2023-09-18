@@ -8,6 +8,7 @@ import NotFound from './pages/NotFound';
 import './components/Navigation.js';
 import './styles/styles.scss';
 
+
 const App = () => {
   return (
     <>
