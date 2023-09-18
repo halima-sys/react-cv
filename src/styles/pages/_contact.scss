@@ -151,13 +151,18 @@
 @media screen and (max-width: 500px) {
     .contactContent {
         .contactBox {
-            min-width: 100% !important;
+            min-width: 95% !important;
         }
         span {
             font-size: .9rem !important;
         }
         h4 {
             font-size: .9rem;
+        }
+    }
+    .socialNetwork{
+        a {
+            width: 30% !important;
         }
     }
 }            
