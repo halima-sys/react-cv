@@ -23,7 +23,7 @@
             color: $color-3;
             font-size: 1.1rem;
             text-transform: uppercase;
-            padding: 0 1rem;
+            padding: 1 0.5rem;
             flex: 1;
             z-index: 2;
             @include verticalCenter;
@@ -148,7 +148,7 @@
                     border-radius: $borderRadius;
                     box-shadow: $shadow;
                     text-align: center;
-                    width: 40%;
+                    width: 80%;
         
                     .head {
                         display: flex;
@@ -221,7 +221,9 @@
 
     @media (max-width: 520px) {
         .radioDisplay {
-            display: none !important;
+            //display: none !important;
+            width: 100% !important;
+            height: max-content !important;
         }
 
         .portfolioContent {
@@ -229,10 +231,11 @@
 
             .project {
                 grid-template-rows: 30px 40px 80px 40px !important;
-                width: 98% !important;
+                width: 100% !important;
+                height: 500px !important;
 
                 img {
-                    height: 100% !important;
+                    height: 400px !important;
                 }
             }
         }

@@ -6,12 +6,12 @@ class ProjectList extends Component {
     state= {
         projects:portfolioData,
         radios: [
-            {id: 1, value:"javascript"}, 
+            {id: 1, value:"Dart"}, 
             {id: 2, value:"Java"},
             {id: 3, value:"Html"},
-            {id: 4, value:"Dart"}
+            {id: 4, value:"javascript"}
         ],
-        selectedRadio: 'javascript'
+        selectedRadio: 'Dart'
     };
 
     handleRadio = (event) => {
