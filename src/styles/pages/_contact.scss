@@ -152,9 +152,12 @@
     .contactContent {
         .contactBox {
             min-width: 95% !important;
+            h1{
+                font-size: large !important;
+            }
         }
         span {
-            font-size: .9rem !important;
+            font-size: .8rem !important;
         }
         h4 {
             font-size: .9rem;
