@@ -74,7 +74,7 @@
         
         .project {
             margin-top: 30px;
-            background-color: $color-3;
+            background-color: rgba(0, 0, 255, 0.3);
             border: 1px solid $color-5;
             border-radius: $borderRadius;
             padding: 1rem;
@@ -148,7 +148,7 @@
                     border-radius: $borderRadius;
                     box-shadow: $shadow;
                     text-align: center;
-                    width: 80%;
+                    width: 50%;
         
                     .head {
                         display: flex;
@@ -241,6 +241,14 @@
 
                 img {
                     height: 400px !important;
+                }
+                
+                .infosContent {
+                    width: 90% !important;
+                    font-size: 9px !important;
+                    h2{
+                        font-size: 0.8rem !important;
+                    }
                 }
             }
         }
