@@ -224,6 +224,11 @@
             //display: none !important;
             width: 100% !important;
             height: max-content !important;
+
+            li {
+                color: $color-3;
+                font-size: .6rem !important;
+            }
         }
 
         .portfolioContent {
