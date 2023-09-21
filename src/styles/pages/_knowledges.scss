@@ -12,12 +12,12 @@
         "O O H";
 
         .languagesFrameworks, .experience, .otherSkills, .hobbies {
-            background: $color-2;
+            background: $color-1;
             border-radius: $borderRadius;
             padding: .8rem;
         }
         h3 {
-            font-size: 1.4rem;
+            font-size: 1.3rem;
             margin-bottom: 1rem;
             font-family: $font-2;
             color: $color-5;
@@ -74,7 +74,7 @@
                 padding-top: .5rem;
 
                 li {
-                    color: $color-1;
+                    color: $color-3;
                 }
                 .ProgressBar {
                     height: .4rem;
@@ -106,7 +106,7 @@
             margin: 0 0 .5rem .5rem;
             display: grid;
             grid-template-columns: 1fr;
-            grid-template-rows: 5% 0.5fr 0.5fr 0.5fr 0.5fr; //modif de amine 10% & 1fr 1fr au lieu de 0.5fr 0.5fr
+            grid-template-rows: 7% 0.5fr .5fr .5fr .5fr; //modif de amine 10% & 1fr 1fr au lieu de 0.5fr 0.5fr
             grid-template-areas:
             "1"
             "2"
@@ -122,12 +122,14 @@
                 color: $color-5;
             }
             h5 {
-                color: $color-3;
-                padding: 0.5rem 0rem 0.5rem rem;
+                color: $color-4;
+                padding: 0.5rem 0rem 0.5rem .5rem;
             }
             p {
                 text-align: justify;
                 padding: 0 1rem;
+                color: $color-3;
+                font-size: .9rem;
             }
             .exp-1 {
                 grid-area: 2;
@@ -145,6 +147,7 @@
             .otherSkills {
                 grid-area: O;
                 margin-right: 0.5rem;
+                
 
                 .list {
                     display: flex;
@@ -152,6 +155,7 @@
                     height: 100%;
                     margin: 0 auto;
                     justify-content: space-between;
+                    color: $color-3;
 
                     ul {
                         height: 80%;
@@ -179,6 +183,7 @@
                         span {
                             position: absolute;
                             transform: translateX(2.2rem);
+                            color: $color-3;
                         }
                     }
                 }
@@ -186,31 +191,40 @@
         }
 
     }
-    @media screen and (max-width: 950px){
+    @media screen and (max-width: 1300px){
         .knowledgesContent {
             h3 {
                 font-size: 1.2rem !important;
+            }
+            h4 {
+                font-size: 1rem !important;
+            }
+            h5 {
+                font-size: .7rem !important;
             }
             .languagesList {
                 padding-top: .2rem !important;
             }
             p {
-                font-size: .8rem;
+                font-size: .7rem !important;
             }
             .otherSkills, .hobbies {
                 font-size: .8rem;
             }
         }
     }
-    @media screen and (max-width: 850px) {
+    @media screen and (max-width: 900px) {
         .knowledgesContent {
             h4 {
-                font-size: .9rem !important;
+                font-size: .8rem !important;
             }
             h5 {
                 font-size: .6rem !important;
                 padding: .2rem 1rem !important;
             }
+        }
+        .languagesFrameworks {
+            font-size: .8rem !important;
         }
         
     }
@@ -239,6 +253,14 @@
             .hobbies {
                 grid-area: 4 !important;
                 margin-top: .5rem !important;
+            }
+
+            h4 {
+                font-size: .8rem !important;
+            }
+            h5 {
+                font-size: .6rem !important;
+                padding: .2rem 1rem !important;
             }
         
     }

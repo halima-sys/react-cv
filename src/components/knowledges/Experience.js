@@ -8,8 +8,8 @@ const Experience = () => {
                 <h4>Développeur Freelance</h4>
                 <h5>Depuis 04/2023</h5>
                 <p>- Création d'applications web java avec le Framework SPRINGBOOT.<br></br>
-                   - Création de BDD pour sites e-commerce<br></br>
-                   - Création d'applications Mobile avec FLUTTER et DART.<br></br> 
+                   - Création de BDD SQL et MySQL.<br></br>
+                   - Création d'applications Mobile avec FLUTTER (DART).<br></br> 
                    - Création de divers sites web avec Wordpress<br></br>
                    - Création de sites web avec React<br></br>
                    - Travail en équipe sur "GITHUB".</p>
