@@ -43,7 +43,7 @@
                 margin-bottom: .3rem;
             }
             .years {
-                font-size: .65rem;
+                font-size: .6rem;
                 display: flex;
                 justify-content: space-between;
                 color: $white;
@@ -224,8 +224,19 @@
             }
         }
         .languagesFrameworks {
-            font-size: .8rem !important;
+            font-size: .7rem !important;
+            .years {
+                font-size: .5rem !important;
+                span {
+                &:nth-child(2)::before,
+                &:nth-child(3)::before{
+                    height: 100px !important;
+                }}
+            
+            }
+
         }
+        
         
     }
     @media screen and (max-width:500px) {
