@@ -26,10 +26,10 @@ const Contact = () => {
                         </li>
                         <li>
                         <i className='fas fa-regular fa-at'></i>
-                        <CopyToClipboard text="amine.saddiki48@gmail.com">
+                        <CopyToClipboard text="halimaelrhazi@gmail.com">
                             <span className='clickInput' 
                             onClick={() => {alert('E-mail copié !');}}>
-                                amine.saddiki48@mail.com
+                                halimaelrhazi@mail.com
                             </span>
                         </CopyToClipboard>
                         </li>
