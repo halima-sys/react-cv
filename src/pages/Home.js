@@ -6,8 +6,8 @@ const Home = () => {
             <Navigation />
             <div className='homeContent'>
                 <div className='content'>
-                    <h1>Amine Saddiki</h1>
-                    <h2>Développeur Web et Mobile</h2>
+                    <h1>Halima El Rhazi</h1>
+                    <h2>Développeuse Web et Mobile</h2>
                     <div className='pdf'>
                         <a href='./media/AmineSaddikiCV.pdf' target='blank'>Télécharger CV</a>
                     </div>
